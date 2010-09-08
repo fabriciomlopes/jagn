@@ -18,9 +18,9 @@ Some of the most important theoretical models of complex networks have been asse
 
 The source code, java binary (jar file) and documentation are available here.
 
-The source codes are packed in file src-xxx.zip, where xxx represents the software version.
+The source codes are packed in file *jAGN-source-code.zip*.
 
-The binary file (jar file) and libraries are packed in file jAGN-bc-xxx.jar.
+The binary file (jar file) and libraries are packed in file *jAGN-binary-code.jar*.
 
 You need the Java Runtime Environment (JRE) to execute jAGN software.
 The JRE is free and is available for different operating systems.
@@ -29,6 +29,6 @@ You can run JAR-packaged applications with the Java interpreter.
 
 The basic command is:
 
-*java -jar jAGN-bc-xxx.jar*
+*java -jar jAGN-binary-code.jar*
 
-or just double click on jAGN-bc-xxx.jar, if the JRE is visible in your operating system.
+or just double click on jAGN-binary-code.jar, if the JRE is visible in your operating system.
