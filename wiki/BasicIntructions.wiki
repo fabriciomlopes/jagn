@@ -1,0 +1,20 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+This project represents an objective approach for validation of gene network modeling and identification by presenting an Artificial Gene Networks (AGNs) model generation through theoretical models of complex networks, which is used to simulate temporal expression data.
+
+The proposed framework allows several types of AGNs to be generated and used in order to simulate temporal expression data.
+
+The results of the network identification method can then be compared to the original network in order to estimate its properties and accuracy.
+
+Some of the most important theoretical models of complex networks have been assessed:
+the uniformly-random Erdos-Rényi (ER), the small-world Watts-Strogatz (WS),
+the scale-free Barabási-Albert (BA) and geographical networks (GG).
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
