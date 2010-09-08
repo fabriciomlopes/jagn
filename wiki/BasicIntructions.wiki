@@ -22,7 +22,8 @@ The source codes are packed in file *jAGN-source-code.zip*.
 
 The binary file (jar file) and libraries are packed in file *jAGN-binary-code.jar*.
 
-You need the Java Runtime Environment (JRE) to execute jAGN software.
+You need the [http://www.java.com/en/download/ Java Runtime Environment (JRE)] to execute jAGN software.
+
 The JRE is free and is available for different operating systems.
 
 You can run JAR-packaged applications with the Java interpreter.
