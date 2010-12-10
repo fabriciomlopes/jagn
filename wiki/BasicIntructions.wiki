@@ -34,3 +34,35 @@ The basic command is:
 *java -jar jAGN-binary-code.jar*
 
 or just double click on jAGN-binary-code.jar, if the JRE is visible in your operating system.
+
+= Running on the console =
+
+If you need to execute a console version with various simulations, you can use the following instructions to execute the jAGN software:
+
+*java -jar jAGN-binary-code.jar -v {path-output} {number-of-networks} {number-of-genes} {signal-size} {average-degree} {network-topology} {probability-of-redistribution-edges}*
+
+Use {probability-of-redistribution-edges} only for WS networks.
+
+<br>
+
+*Example for ER, BA and GG networks:*
+
+*java -jar jAGN-binary-code.jar -v /home/jAGNs/ 10 100 30 2 BA*
+
+<br>
+
+*Example for WS networks:*
+
+*java -jar jAGN-binary-code.jar -v /home/jAGNs/ 10 100 30 2 WS 0.28*
+
+<br>
+
+*where in these examples:*
+
+  # path-output == /home/jANGs/ or could be c:\temp\ or any path you want.
+  # number-of-networks == 10 different simulation of the same network topology.
+  # number-of-genes == number of genes (nodes) of each network.
+  # signal-size = number of instants of time or experiments, i.e., signal size.
+  # average-degree = average degree of connection per gene.
+  # network-topology = the available networks topology are: ER, WS, BA and GG.
+  # probability-of-redistribution-edges = use only for WS network topology to select the probability of redistribution its connections.
