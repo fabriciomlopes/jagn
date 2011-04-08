@@ -1,6 +1,4 @@
 #labels Featured
-#Basic instructions for using the jAGN software
-
 = Introduction =
 
 This project represents an objective approach for validation of gene network modeling and identification by presenting an Artificial Gene Networks (AGNs) model generation through theoretical models of complex networks, which is used to simulate temporal expression data.
@@ -35,7 +33,7 @@ The basic command is:
 
 or just double click on jAGN-binary-code.jar, if the JRE is visible in your operating system.
 
-= Running on the console =
+== Running on the console ==
 
 If you need to execute a console version with various simulations, you can use the following instructions to execute the jAGN software:
 
