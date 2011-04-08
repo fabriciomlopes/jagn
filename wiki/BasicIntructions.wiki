@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Featured
+#Basic instructions for using the jAGN software
 
 = Introduction =
 
