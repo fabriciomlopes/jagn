@@ -1,4 +1,4 @@
-#labels Featured
+#labels Featured,Phase-Deploy
 = Introduction =
 
 This project represents an objective approach for validation of gene network modeling and identification by presenting an Artificial Gene Networks (AGNs) model generation through theoretical models of complex networks, which is used to simulate temporal expression data.
@@ -17,9 +17,11 @@ Some of the most important theoretical models of complex networks have been asse
 
 The source code, java binary (jar file) and documentation are available here.
 
-The source codes are packed in file *jAGN-source-code.zip*.
+The source codes are packed in file *jAGN-source-code-vxxx.zip*.
 
-The binary file (jar file) and libraries are packed in file *jAGN-binary-code.jar*.
+The binary file (jar file) and libraries are packed in file *jAGN-vxxx.jar*.
+
+Where "vxxx" specifies the version of the file.
 
 You need the [http://www.java.com/en/download/ Java Runtime Environment (JRE)] to execute jAGN software.
 
@@ -29,15 +31,15 @@ You can run JAR-packaged applications with the Java interpreter.
 
 The basic command is:
 
-*java -jar jAGN-binary-code.jar*
+*java -jar jAGN-vxxx.jar*
 
-or just double click on jAGN-binary-code.jar, if the JRE is visible in your operating system.
+or just double click on jAGN-vxxx.jar, if the JRE is visible in your operating system.
 
 == Running on the console ==
 
 If you need to execute a console version with various simulations, you can use the following instructions to execute the jAGN software:
 
-*java -jar jAGN-binary-code.jar -v {path-output} {number-of-networks} {number-of-genes} {signal-size} {average-degree} {network-topology} {probability-of-redistribution-edges}*
+*java -jar jAGN-vxxx.jar -v {path-output} {number-of-networks} {number-of-genes} {signal-size} {average-degree} {network-topology} {probability-of-redistribution-edges}*
 
 Use {probability-of-redistribution-edges} only for WS networks.
 
@@ -45,13 +47,13 @@ Use {probability-of-redistribution-edges} only for WS networks.
 
 *Example for ER, BA and GG networks:*
 
-*java -jar jAGN-binary-code.jar -v /home/jAGNs/ 10 100 30 2 BA*
+*java -jar jAGN-v102.jar -v /home/jAGNs/ 10 100 30 2 BA*
 
 <br>
 
 *Example for WS networks:*
 
-*java -jar jAGN-binary-code.jar -v /home/jAGNs/ 10 100 30 2 WS 0.28*
+*java -jar jAGN-v102.jar -v /home/jAGNs/ 10 100 30 2 WS 0.28*
 
 <br>
 
